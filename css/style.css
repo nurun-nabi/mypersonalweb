@@ -1,0 +1,121 @@
+/* Basic setup strat*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif, 'Roboto', sans-serif;
+    height: 3000px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+/* header and brand area design started */
+.header-area {
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 85px 0;
+    height: 100vh;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid #ffffff;
+    border-radius: 0;
+}
+
+.navbar-toggler-icon i {
+    font-size: 31px;
+    padding: 8px;
+    color: #ffffff;
+    line-height: 16px;
+    padding-left: 2px;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu ul li a {
+    color: #ffffff !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.header-text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: #ffffff;
+    padding-top: 220px;
+}
+
+.header-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+
+}
+
+.header-text::before {
+    content: '';
+    position: absolute;
+    width: 48%;
+    height: 2px;
+    border: 2px solid #9ab4be;
+    top: 63%;
+    left: 26%;
+    display: inline-block;
+}
+
+.header-text::after {
+    content: '';
+    position: absolute;
+    width: 48%;
+    height: 2px;
+    border: 2px solid #9ab4be;
+    top: 87%;
+    left: 26%;
+    display: inline-block;
+}
+
+
+/* font-family: 'Raleway', sans-serif, 'Roboto', sans-serif; */
+/* header and brand area design end */
