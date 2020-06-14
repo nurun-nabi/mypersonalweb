@@ -115,7 +115,46 @@ p {
     left: 26%;
     display: inline-block;
 }
+/* header and brand area design end */
+/* about area design start */
 
+/* about area design end */
+.about-area{
+    padding: 120px 0;
+}
+.about-content h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a0a0a0;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+.about-content p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #a0a0a0;
+	text-transform: initial;
+	padding-right: 11%;
+	text-align: justify;
+	padding-bottom: 30px;
+	margin: 0;
+}
+.about-content .pd {
+	padding-bottom: 90px;
+}
+.about-content a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff2b4a;
+    padding: 10px 40px;
+    
+}
 
 /* font-family: 'Raleway', sans-serif, 'Roboto', sans-serif; */
-/* header and brand area design end */
