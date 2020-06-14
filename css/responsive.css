@@ -45,6 +45,9 @@
         padding-top: 3px;
 
     }
+    #service-area {
+        padding: 90px 0;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/

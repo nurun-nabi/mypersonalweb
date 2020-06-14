@@ -156,5 +156,70 @@ p {
     padding: 10px 40px;
     
 }
+/* service area design started */
+#service-area {
+	background-color: #ecdfdf;
+	padding: 120px 0;
+}
+.service-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    color:#000000;
+    padding-bottom: 20px;
+}
+.service-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+   color: #9a9a9a; 
+   padding-bottom: 60px;
+}
+.service-item{
+    background-image: url(../img/itme01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+
+}
+.service-item2{
+    background-image: url(../img/itme02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+
+}
+.service-item3{
+    background-image: url(../img/itme03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+
+}
+.service-item4{
+    background-image: url(../img/itme04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+
+}
+.service-common img{
+    padding-bottom: 45px;
+}
+.service-common h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* service area design end */
 
 /* font-family: 'Raleway', sans-serif, 'Roboto', sans-serif; */
